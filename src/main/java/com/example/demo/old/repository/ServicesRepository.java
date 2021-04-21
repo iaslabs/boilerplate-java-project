@@ -1,7 +1,7 @@
-package com.example.demo.repository;
+package com.example.demo.old.repository;
 
-import com.example.demo.model.ServiceReport;
-import com.example.demo.model.TechnicianId;
+import com.example.demo.old.model.ServiceReport;
+import com.example.demo.old.model.TechnicianId;
 
 import java.time.LocalDate;
 import java.util.List;

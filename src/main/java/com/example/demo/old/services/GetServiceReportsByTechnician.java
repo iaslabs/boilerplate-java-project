@@ -1,8 +1,8 @@
-package com.example.demo.services;
+package com.example.demo.old.services;
 
-import com.example.demo.model.ServiceReport;
-import com.example.demo.model.TechnicianId;
-import com.example.demo.repository.ServicesRepository;
+import com.example.demo.old.model.ServiceReport;
+import com.example.demo.old.model.TechnicianId;
+import com.example.demo.old.repository.ServicesRepository;
 import org.apache.commons.lang3.Validate;
 import org.springframework.stereotype.Service;
 

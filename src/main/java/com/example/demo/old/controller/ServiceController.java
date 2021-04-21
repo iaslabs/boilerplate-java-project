@@ -1,7 +1,7 @@
-package com.example.demo.controller;
+package com.example.demo.old.controller;
 
-import com.example.demo.model.ServiceReport;
-import com.example.demo.services.GetServiceReportsByTechnician;
+import com.example.demo.old.model.ServiceReport;
+import com.example.demo.old.services.GetServiceReportsByTechnician;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
