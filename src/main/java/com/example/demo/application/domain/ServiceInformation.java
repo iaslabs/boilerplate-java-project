@@ -2,6 +2,7 @@ package com.example.demo.application.domain;
 
 import java.time.LocalDateTime;
 
+
 public class ServiceInformation {
     private final Id personId;
     private final LocalDateTime initDateTime;
