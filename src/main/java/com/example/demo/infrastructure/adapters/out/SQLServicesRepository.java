@@ -5,9 +5,11 @@ import com.example.demo.application.domain.ServiceInformation;
 import com.example.demo.application.ports.out.ServicesRepository;
 import com.example.demo.infrastructure.serialization.sql.mapper.SqlServiceMapper;
 import com.example.demo.infrastructure.serialization.sql.model.SqlService;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository
 public class SQLServicesRepository implements ServicesRepository {
 
     @Override

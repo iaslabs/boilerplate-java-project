@@ -4,17 +4,17 @@ import java.time.Instant;
 import java.util.Objects;
 
 public class Poliza {
-    private final Integer number;
+    private final NumeroPoliza number;
     private final Instant createdAt;
     private final Instant validoHasta;
 
-    public Poliza(Integer number, Instant createdAt, Instant validoHasta) {
+    public Poliza(NumeroPoliza number, Instant createdAt, Instant validoHasta) {
         this.number = Objects.requireNonNull(number);
         this.createdAt = Objects.requireNonNull(createdAt);
         this.validoHasta = Objects.requireNonNull(validoHasta);
     }
 
-    public Integer getNumber() {
+    public NumeroPoliza getNumber() {
         return number;
     }
 
